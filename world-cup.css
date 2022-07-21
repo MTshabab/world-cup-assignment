@@ -205,6 +205,17 @@ footer {
     margin-left: 40%;
 }
 
+#footer-icon a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700
+}
+
+.icon-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 /* responsive */
 /* @media screen and (max-width:576px) {
     .container-main {
@@ -356,4 +367,8 @@ footer {
         margin-bottom: 13px;
     }
 
+    .icon-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
