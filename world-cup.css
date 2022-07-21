@@ -1,3 +1,143 @@
-h1 {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+main {
+    /* display: flex; */
+    /* align-items: center;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+
+.container {
+
+    width: 1000px;
+    margin: auto;
+    height: 570px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.top-menu-item {
+    color: #E2E2E2;
+    margin-top: 33px;
+    margin-left: 75px;
+}
+
+.top-menu-item h1 {
+    font-size: 53px;
+}
+
+.top-menu-img {
+    margin-right: 40px;
+    margin-top: 60px;
+
+
+}
+
+.top-menu-img img {
+    height: 100%;
+}
+
+.top-menu-button {
+    padding: 10px 30px;
+    background-color: #dd0000;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 8px;
+
+}
+
+/* middle-part-style */
+.shaabab {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+
+.link-button {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+}
+
+.link-button a {
+    text-decoration: none;
+    padding: 5px 10px;
+
+    justify-content: center;
+}
+
+
+.link-button {
+    padding: 5px 10px;
+}
+
+.matches-info img {
+    height: 150px;
+    width: 150px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.live-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.matches-info button {
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.container-main {
+    background-color: #1E1E1E;
+    width: 1000px;
+    margin: auto;
+    height: 570px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.link-button a {
+
+    padding: 10px 75px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+
+
+}
+
+.link-button {
+    border-radius: 5px;
+}
+
+.button-1st-color {
+    background-color: #ffffff;
+}
+
+.button-color {
+    background-color: #dd0000;
+
 }
