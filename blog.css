@@ -133,6 +133,11 @@ main {
 
 }
 
+.flag-div {
+    display: flex;
+}
+
+
 .link-button {
     border-radius: 5px;
 }
@@ -243,6 +248,8 @@ footer {
 
 
     }
+
+
 
     .link-button a {
         padding: 5% 10%;
