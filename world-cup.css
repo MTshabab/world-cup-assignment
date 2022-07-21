@@ -7,8 +7,8 @@ body {
 
 main {
     /* display: flex; */
-    /* align-items: center;
-    flex-direction: column; */
+
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
@@ -19,7 +19,7 @@ main {
 
     width: 1000px;
     margin: auto;
-    height: 570px;
+
     border-radius: 10px;
     display: flex;
     margin-top: 30px;
@@ -57,7 +57,7 @@ main {
 
 }
 
-/* middle-part-style */
+
 .shaabab {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -139,5 +139,47 @@ main {
 
 .button-color {
     background-color: #dd0000;
+
+}
+
+.fa-solid {
+    margin-left: 20px;
+}
+
+.icon-justifier {
+    margin-left: 5px;
+    ;
+}
+
+/* footter */
+footer {
+    background-color: #1E1E1E;
+    color: #ffffff;
+}
+
+.footer-item {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 35px;
+    margin-top: 80px;
+    padding-bottom: 85px;
+}
+
+.footer-item h2 {
+    margin-left: 470px;
+    margin-bottom: 30px;
+
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 38px;
+
+}
+
+.footer-link {
+    margin-left: 200px;
+    margin-top: 50px;
 
 }
